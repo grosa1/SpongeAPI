@@ -106,7 +106,8 @@ public interface Explosion extends Locatable {
      *
      * <p>This value indicates how close to being symmetrical the explosion is.
      * A value of zero indicates a completely symmetrical blast (in all three
-     * dimensions). A larger value indicates a lower likelihood of symmetry.</p>
+     * dimensions). A larger value indicates a lower likelihood of symmetry. A
+     * value of one indicates the platform default.</p>
      *
      * <p>Note, this is a hint to the implementation. Implementations may not
      * provide the means to produce semi-random form explosions.</p>
